@@ -6,7 +6,7 @@
 
 Макросы отслеживают движение мыши через **raw input** (`RegisterRawInputDevices`) и
 нажимают клавиши **A/D** через scan codes (`KEYEVENTF_SCANCODE`), которые корректно
-воспринимаются CS 1.6 (в отличие от `keybd_event`/virtual keys, которые игра игнорирует).
+воспринимаются CS 1.6, CSS, CS GO, CS2 (в отличие от `keybd_event`/virtual keys, которые игра игнорирует).
 
 ## Программы
 
